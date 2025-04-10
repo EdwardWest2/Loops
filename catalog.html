@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOPS - CATALOG</title>
+    <link rel="icon" href="assets/logo2 white.svg">
+    <link rel="stylesheet" href="style/catalog.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Bigelow+Rules&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Lacquer&family=Nothing+You+Could+Do&family=Playwrite+DE+Grund:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&family=Rancho&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Splash&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="mainSection">
+        <nav>
+            <div>
+                <img src="assets/logo2 white.svg" alt="" >
+                <h1>LOOPS</h1>
+            </div>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+            </ul>
+        </nav>
+        <video muted autoplay loop >
+            <source src="assets/ads4 rev.mp4">
+        </video>
+        <div class="prop1">
+            <h1>FIND YOUR SHOE WITH LOOPS.</h1>
+            <button id="scrollDwn">SEE MORE</button>
+        </div>
+    </section>
+    <section class="section1">
+        <div class="prop1" data-aos="fade-up" id="targetScroll">
+            <h1>OUR SIGNATURE SHOES</h1>
+            <img src="assets/right arrow.png" alt="">
+        </div>
+        <div class="prop2" data-aos="fade-up" >
+            <img src="assets/signature1.png" alt="">
+            <img src="assets/signature2.png" alt="">
+            <img src="assets/signature3.png" alt="">
+            <img src="assets/signature4.png" alt="">
+            <img src="assets/signature5.png" alt="">
+            <img src="assets/signature6.png" alt="">
+            <img src="assets/signature7.png" alt="">
+            <img src="assets/signature8.png" alt="">
+            <img src="assets/signature9.png" alt="">
+            <img src="assets/signature10.png" alt="">
+        </div>
+    </section>
+    <div class="CO"></div>
+    <section class="section2">
+        <div class="prop1" data-aos="fade-up">
+            <h1>TRENDING</h1>
+            <img src="assets/right arrow.png" alt="">
+        </div>
+        <div class="prop2" data-aos="fade-up" id="wrapperCatalog1"></div>
+    </section>
+    <section class="section4">
+        <div class="prop1" data-aos="fade-up">
+            <div class="title">
+                <h1>Discovery</h1>
+                <img src="assets/right arrow.png" alt="">
+            </div>
+            <div class="search">
+                <input type="text" name="text"  placeholder="Find Your Shoe?" id="searchInput">
+                <button id="searchBtn">SEARCH</button>
+            </div>
+
+        </div>
+        <div id="wrapperCatalog2" class="prop2"></div>
+    </section> 
+    <footer>
+        <div class="container">
+            <div class="prop1">
+                <h1>Sign in Now Get <span>10% </span> Off For Every Item</h1>
+                <button id="signIn">SIGN IN >></button>
+            </div>
+            <div class="prop2">
+                <div class="logo">
+                    <div>
+                        <img src="assets/logo2 white.svg" alt="Logo Footer" id="footerLogo">
+                    </div>
+                </div>
+                <div class="social">
+                    <ul>
+                        <h1>Social Media</h1>
+                        <li><a href="">YouTube</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Facebook</a></li>
+                    </ul>
+                    <ul>
+                        <h1>Adress</h1>
+                        <li><a href="">Jl. Raya Kuta, Kuta, Badung</a></li>
+                        <li><a href="">0851 5528 1111</a></li>
+                        <li><a href="">West Mall</a></li>
+                    </ul>
+                    <ul>
+                        <h1>Help?</h1>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Send A Message</a></li>
+                        <li><a href="">About Us?</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script/catalog.js"></script>
+</body>
+</html>
